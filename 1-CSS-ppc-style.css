@@ -12,32 +12,167 @@
  max-height: 100%;
  min-width: 80%;
  min-height: 80%;
- margin: 0px auto;
-  margin: 0.1em;      
-    padding: 0.1em; 
  background-color: gray;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
 
   #header{
    max-height: 35%;
-   min-height: 40px;
+   min-height: 35%;
    position: relative; 		
     background-color: darkgray;
-     margin: 0.1em;     
-    padding: 2em; 
+     
    
   }
+     #upperHeader {
+      background: linear-gradient(to bottom, darkgray 0%,white 100%);
+      max-width: 100%;
+      max-height: 40%;
+      min-height: 40%;
+      position: relative;   
+     
+    }
+
+      #logopic {
+        width: 24em;
+        height: 4.5em;
+      }
+
+      #logo { 
+        position: relative; 
+        vertical-align: center;  
+        display: inline-block; 
+        cursor: pointer;
+        width: 65%;
+      }
+
+      #text {
+        text-align: right;
+        padding: 0.5em;
+        margin: 0 auto;
+        display: inline-block;
+        font-weight: bold
+      }
+
+
+    #lowerHeader {
+      background: linear-gradient(lightgray, #BEC2DB, #AAAAB5);
+      color: #595959;
+      max-height: 30%;
+      min-height: 30%;
+      position: relative;    
+      text-align: left;
+      padding: .1em;
+      vertical-align: top; 
+      border-top: 1px solid gray;
+    }
+
+      .topMenuItem {
+        color: #605D60;
+        font-weight: bold;
+        display: inline;
+        font-size: 0.7em;
+        border-right: 1px solid #938F93;
+        padding: 0 2em;
+
+      }
+
+    #borderHeader {
+      background-color: lightgray;
+      color: #595959;
+      max-height: 7%;
+      min-height: 7%;
+      position: relative;    
+      padding: 0.5em; 
+      font-size: 2em;  
+      vertical-align: top; 
+
+    }
 
   
   #main_content{
-   max-height: 85%;
-    min-height: 550px;
-   position: relative;		
+    max-height: 85%;
+    min-height: 80%;
+    position: relative;		
     margin: 0.1em;			
-    padding: 2em; 
-   background-color: black;
+    padding: 0.5em; 
+    background-color: black;
 
   }
+
+      #banner {
+         max-height: 40%;
+         min-height: 35%;
+         position: relative;    
+         margin: 0.1em;      
+         padding: 0.5em; 
+         vertical-align: top;
+
+      }
+          #mainImage {
+            position: relative; 
+            vertical-align: center;  
+            display: inline-block; 
+            cursor: pointer;
+            min-width: 40%;
+            max-width: 45%;
+            min-height: 90%;
+            max-height: 90%;
+            margin: 0 0 0 2em;
+
+          }
+
+          #mainImage img {
+             max-width: 25em;
+             max-height: 45em;
+             border: 0.6em solid white;
+            
+          }
+
+          #mainInfo {
+              min-width: 50%;
+              max-width: 55%;
+              min-height: 90%;
+              max-height: 45em;
+              background: linear-gradient(to right, gray 0%,black 100%);
+              position: relative; 
+              vertical-align: top;  
+              display: inline-block; 
+              cursor: pointer;
+
+          }
+
+          #mainText {
+            min-width: 35%;
+            max-width: 100%;
+            min-height: 40%;
+            max-height: 35em;
+            color: white;
+            text-align: left;
+            position: relative; 
+            cursor: pointer;
+            padding: 1.5em;
+            font-size: 0.8em;
+          }
+
+          .topBorder {
+             max-width: 100%;
+             max-height: 100%;
+             background: linear-gradient(to bottom, gold 0%,orange 100%);;
+             position: relative;
+             padding: .2em 1em;
+             font-size: .9em;
+             font-weight: bold;
+          }
+
+      #lowerContent {
+         max-height: 40%;
+         min-height: 35%;
+         position: relative;    
+         margin: 0.1em;      
+         padding: 0.5em; 
+         background-color: blue;
+
+      }
 
   }
